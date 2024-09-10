@@ -20,6 +20,7 @@ export default function HomePage() {
           <div key={image.id} className="w-48">
             <img src={image.url} />
           </div>
+          
         ))}
       </div>
     </main>

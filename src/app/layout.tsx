@@ -15,8 +15,80 @@ export default function RootLayout({
   return (
     <html lang="en" >
       <body className={`${GeistSans.variable}`}>
+      <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
       <div className="bg-purple-50 text-5xl text-blue-600">First Layout</div>
+      
+      <button className="btn">Button</button>
+      <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+
+      <div className="card card-compact bg-base-100 w-96 shadow-xl">
+        <figure>
+          <img
+            src="https://utfs.io/f/a7be56e5-6c74-44f5-b920-72f89d205b88-oihici.jpg"
+            alt="Cat" />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">Cute Cat!</h2>
+          <p>If you saw the owner carrying this cat in a cat purse down the street, you would say: "What a cute cat!"</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Like Cats?!</button>
+          </div>
+        </div>
+      </div>
+      <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+
+      <div className="card card-compact bg-base-100 w-96 shadow-xl">
+        <figure>
+          <img
+            src="https://utfs.io/f/f15642ce-8823-47ec-9a9d-7f08566aa4de-g9ce1p.jpg"
+            alt="Marinette" />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">MaRinETTe</h2>
+          <p>Wow! This episode of Miraculous Ladybug was quite cursed!</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">DupenChang</button>
+          </div>
+        </div>
+      </div>
+      <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+
+
+      <div className="card card-compact bg-base-100 w-96 shadow-xl">
+        <figure>
+          <img
+            src="https://utfs.io/f/400acfb1-9483-4b8c-8659-09fe6fde08b7-hwqymk.jpg"
+            alt="Overalls" />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">OVERALLS</h2>
+          <p>This is a good example of how amazing overalls are right!</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Like Overals?!</button>
+          </div>
+        </div>
+      </div>
+      <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+
+      <div className="card card-compact bg-base-100 w-96 shadow-xl">
+        <figure>
+          <img
+            src="https://utfs.io/f/a4779853-daff-41cf-932d-ab3cb205f8ac-2klt.jpg"
+            alt="Yum" />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">Yummm</h2>
+          <p>Bing su is the most delicious and yummy in my tummy tummy dessert!</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Yum</button>
+          </div>
+        </div>
+      </div>
+      <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+
         {children}
+        <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+
       </body>
     </html>
   );
