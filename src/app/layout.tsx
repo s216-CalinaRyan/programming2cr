@@ -15,11 +15,11 @@ export default function RootLayout({
   return (
     <html lang="en" >
       <body className={`${GeistSans.variable}`}>
-      <div className="bg-purple-50 text-5xl text-blue-600">First Layout</div>
+      <div className="bg-blue-50 text-5xl text-blue-600">Images</div>
       <br></br>
 
       <button className="btn">Button</button>
-      <br></br>
+      <br></br>      
       <br></br>
 
       <div className="card card-compact bg-base-100 w-96 shadow-xl">
@@ -29,8 +29,8 @@ export default function RootLayout({
            />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">Cute Cat!</h2>
-          <p>If you saw the owner carrying this cat in a cat purse down the street, you would say: What a cute cat!</p>
+          <h2 className="card-title text-blue-600">Cute Cat!</h2>
+          <p className="text-blue-600">If you saw the owner carrying this cat in a cat purse down the street, you would say: What a cute cat!</p>
           <div className="card-actions justify-end">
             <button className="btn btn-primary">Like Cats?!</button>
           </div>
