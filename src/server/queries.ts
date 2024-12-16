@@ -24,3 +24,5 @@ const images = db.query.images.findMany({
 });
 return images;
 }
+
+//help me
